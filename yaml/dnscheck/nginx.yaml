@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: my-nginx
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        run: my-nginx
+    spec:
+      containers:
+      - name: my-nginx
+        image: dockerharbor.hc360.org/library/msgatway:201703151508
+        ports:
+        - containerPort: 80
