@@ -1,1 +1,1 @@
-FROM  gcr.io/google-containers/elasticsearch:v5.6.4
+FROM  gcr.io/google-containers/fluentd-elasticsearch:v2.0.2
