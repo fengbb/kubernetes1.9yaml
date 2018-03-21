@@ -1,1 +1,1 @@
-FROM  k8s.gcr.io/defaultbackend:1.3
+FROM  gcr.io/google-containers/elasticsearch:v5.6.4
